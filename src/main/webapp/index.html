@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.css">
+    <title>Home</title>
+</head>
+<body>
+    <div id="main-div">
+        <h1>Welcome To Employee Management System</h1>
+        <h2>Choose An Option..</h2>
+        <br>
+        <div id="options-div">
+            <form action="/StaffSync/FetchAllEmployees">
+                <input type="submit" value="VIEW ALL EMPLOYEES">
+            </form>
+            <form action="detailsById.html">
+                <input type="submit" value="VIEW EMPLOYEE BY ID">
+            </form>
+            <form action="registration.html">
+                <input type="submit" value="ADD AN EMPLOYEE">
+            </form>
+            <form action="remove.html">
+                <input type="submit" value="REMOVE AN EMPLOYEE">
+            </form>
+            <form action="update.html">
+                <input type="submit" value="UPDATE EMPLOYEE DATA">
+            </form>
+        </div>       
+    </div>
+</body>
+</html>

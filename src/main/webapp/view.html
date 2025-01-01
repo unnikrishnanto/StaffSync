@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="registration.css">
+    <title>Registration</title>
+</head>
+<body>
+    <div id="main-div">
+        <h1>Registration Page</h1>
+        <div id="form-div">
+            <form action="StaffSync/RegisterEmployee" method="post" >
+                <label for="id">Employee ID:</label>
+                <input type='text' name='id' value='xyz' disabled>
+                <br>
+                <label for='name'>Name:</label>
+                <input type='text' name='name' value='abc' >
+                <br>
+                <label for='salary'>Salary:</label>
+                <input type='number' name='salary' value='123'>
+                <br>
+                <label for='email'>Email :</label>
+                <input type='email' name='email' value='xyz'>
+                <br>
+                <label for='phone'>Phone :</label>
+                <input type='tel' name='phone' value='xyz'>
+                <br>
+                <input type="submit" value="Register">
+            </form>        
+        </div>
+    </div>
+</body>
+</html>
